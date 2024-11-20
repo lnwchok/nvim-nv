@@ -4,7 +4,7 @@ local map = vim.keymap.set
 
 map('n', ';', ':', { desc = 'CMD enter command mode' })
 map('i', 'jk', '<ESC>')
-map('t', '<A-\\>', '<C-\\><C-n>', { desc = 'Exit Terminal Mode' })
+map('t', '<ESC><ESC>', '<C-\\><C-n>', { desc = 'Exit Terminal Mode' })
 
 map('n', '<C-a>', 'ggVG')
 map('n', '<F4>', '<cmd>source %<CR>', { desc = 'Execute this file' })
