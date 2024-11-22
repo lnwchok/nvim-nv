@@ -1,4 +1,4 @@
-init.lua
-lazy-lock.json
-LICENSE
-
+/init.lua
+/lazy-lock.json
+/LICENSE
+/lua/chadrc.lua
